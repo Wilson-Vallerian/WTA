@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router";
 import Hamburger from "./Hamburger";
+import MobileNavList from "./MobileNavList";
 
 const AUTO_CLOSE = 3000;
 
@@ -35,21 +35,15 @@ export default function MobileNav() {
 
       {open && (
         <ul className="nav-mobile">
-          <li>
-            <NavLink to="/" onClick={() => handleClick}>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" onClick={() => handleClick}>
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" onClick={() => handleClick}>
-              About
-            </NavLink>
-          </li>
+          <MobileNavList to="/" onClick={() => handleClick}>
+            Home
+          </MobileNavList>
+          <MobileNavList to="/services" onClick={() => handleClick}>
+            Services
+          </MobileNavList>
+          <MobileNavList to="/about" onClick={() => handleClick}>
+            About
+          </MobileNavList>
         </ul>
       )}
     </>

@@ -22,6 +22,9 @@ body {
   --text-secondary: #4b5563;
 
   --border-color: #d1d5db;
+
+  --shadow-primary: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-secondary: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
