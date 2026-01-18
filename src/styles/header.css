@@ -35,12 +35,12 @@
 
 .nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   list-style-type: none;
 }
 
 .nav li {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .nav a {
@@ -48,8 +48,13 @@
   color: var(--color-secondary);
 }
 
+.nav a:hover {
+  transform: scale(1.2);
+}
+
 .nav a:hover,
 .nav a.active {
+  display: inline-block;
   color: var(--color-primary);
   text-decoration: underline;
 }
