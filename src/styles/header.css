@@ -13,6 +13,10 @@
   margin: 0 1rem 0 1rem;
 }
 
+.logo-wrapper a {
+  text-decoration: none;
+}
+
 .logo-wrapper p {
   margin: 0;
   font-size: 2rem;
@@ -61,7 +65,7 @@
   text-decoration: underline;
 }
 
-.nav-toggle {
+.hamburger {
   display: none;
   background: none;
   border: none;
@@ -95,9 +99,38 @@
     display: none;
   }
 
-  .nav-toggle {
+  .hamburger {
     display: block;
     margin-right: 1rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .hamburger .icon {
+    inset: 0;
+    font-size: 2rem;
+    transition:
+      transform 0.4s ease,
+      opacity 0.25s ease;
+  }
+
+  .hamburger .menu {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+
+  .hamburger .close {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.5);
+  }
+
+  .hamburger.open .menu {
+    opacity: 0;
+    transform: rotate(180deg) scale(0.5);
+  }
+
+  .hamburger.open .close {
+    opacity: 1;
+    transform: rotate(360deg) scale(1);
   }
 }
 
