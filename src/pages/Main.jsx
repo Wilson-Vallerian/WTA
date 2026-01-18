@@ -1,3 +1,45 @@
 export default function Main() {
-  return <div>MAIN</div>;
+  return (
+    <>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+      <div>MAIN</div>
+    </>
+  );
 }
