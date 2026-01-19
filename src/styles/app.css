@@ -17,3 +17,27 @@
   margin: 1rem;
   text-align: center;
 }
+
+.page-header {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Consolas", "Courier New";
+  padding-top: 1rem;
+}
+
+.page-title {
+  margin: 1rem;
+}
+
+.page-title-description {
+  margin: 1rem;
+}
+
+.page-title-description p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.even-section {
+  background: var(--bg-secondary);
+}
