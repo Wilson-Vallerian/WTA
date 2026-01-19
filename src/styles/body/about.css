@@ -9,7 +9,7 @@
   max-width: 25rem;
   max-height: 15rem;
   border-radius: 2rem;
-  border: solid var(--border-color);
+  border: solid var(--border-color-primary);
   object-fit: cover;
 }
 

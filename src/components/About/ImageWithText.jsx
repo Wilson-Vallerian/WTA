@@ -11,10 +11,10 @@ export default function ImageWithText({
       <div className="image-description">
         {paragraphs.map((paragraph, i, arr) => {
           return (
-            <>
+            <div key={`image-with-text-${i}`}>
               <p>{paragraph}</p>
               {i === arr.length - 1 ? "" : <br />}
-            </>
+            </div>
           );
         })}
       </div>

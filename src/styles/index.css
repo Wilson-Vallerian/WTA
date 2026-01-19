@@ -21,7 +21,8 @@ body {
   --text-primary: #111827;
   --text-secondary: #4b5563;
 
-  --border-color: #d1d5db;
+  --border-color-primary: #d1d5db;
+  --border-color-secondary: #2563eb;
 
   --shadow-primary: 0 4px 6px rgba(0, 0, 0, 0.05);
   --shadow-secondary: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -37,5 +38,5 @@ body {
   --text-primary: #e5e7eb;
   --text-secondary: #9ca3af;
 
-  --border-color: #1e293b;
+  --border-color-primary: #1e293b;
 }

@@ -36,9 +36,10 @@ export default function About() {
 
         <div className="feature-card">
           <div className="feature-card-row">
-            {whyChooseUs.map((reason) => {
+            {whyChooseUs.map((reason, i) => {
               return (
                 <FeatureCard
+                  key={`about-${i}-${reason.title}`}
                   title={reason.title}
                   text={reason.text}
                   img={reason.image}

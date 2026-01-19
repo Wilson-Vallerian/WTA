@@ -26,22 +26,23 @@ export default function MobileNav() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
       setOpen(false);
+    } else {
+      setOpen(false);
     }
   }
 
   return (
     <>
       <Hamburger open={open} setOpen={setOpen} />
-
       {open && (
         <ul className="nav-mobile">
-          <MobileNavList to="/" onClick={() => handleClick}>
+          <MobileNavList to="/" onClick={handleClick}>
             Home
           </MobileNavList>
-          <MobileNavList to="/services" onClick={() => handleClick}>
+          <MobileNavList to="/services" onClick={handleClick}>
             Services
           </MobileNavList>
-          <MobileNavList to="/about" onClick={() => handleClick}>
+          <MobileNavList to="/about" onClick={handleClick}>
             About
           </MobileNavList>
         </ul>

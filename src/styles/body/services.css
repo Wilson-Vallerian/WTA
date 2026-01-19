@@ -8,7 +8,6 @@
   margin: 1rem;
   scrollbar-width: thin;
   -ms-overflow-style: none;
-  cursor: grab;
   gap: 1em;
 }
 
@@ -32,6 +31,7 @@
 
   scroll-snap-align: start;
   transition: transform 0.2s ease;
+  cursor: grab;
 }
 
 .flash-card:hover {
@@ -48,6 +48,34 @@
   text-align: justify;
 }
 
+.interested-btn-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.interested-btn {
+  background: var(--bg-primary);
+  border: 0.1rem solid var(--border-color-secondary);
+  border-radius: 1rem;
+  width: 7rem;
+  height: 4rem;
+}
+
+.interested-btn:hover {
+  transform: scale(1.1) translateY(-2px);
+  transition: transform 0.2s ease;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-secondary);
+}
+
+.interested-btn:active {
+  transform: translateY(0);
+  background: var(--bg-secondary);
+}
+
 @media (max-width: 768px) {
   .services {
     margin-left: 1rem;
@@ -62,21 +90,4 @@
     padding: 0;
     gap: 1rem;
   }
-}
-
-.flash-card-section::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.flash-card-section::-webkit-scrollbar-thumb {
-  border-radius: 999px;
-  background-image: repeating-linear-gradient(
-    90deg,
-    var(--color-secondary) 0 8px,
-    transparent 8px 14px
-  );
-}
-
-.flash-card-section::-webkit-scrollbar-button {
-  display: none;
 }
