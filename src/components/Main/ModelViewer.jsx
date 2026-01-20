@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { IoRefresh } from "react-icons/io5";
 
 export default function ModelViewer({ modelPath, className }) {
   const containerRef = useRef(null);
@@ -90,5 +91,11 @@ export default function ModelViewer({ modelPath, className }) {
     };
   }, [modelPath]);
 
-  return <div ref={containerRef} className={className} />;
+  return (
+    <div ref={containerRef} className={className}>
+      <div className="interact-hint">
+        <IoRefresh />
+      </div>
+    </div>
+  );
 }

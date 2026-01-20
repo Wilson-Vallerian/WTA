@@ -29,7 +29,6 @@ export default function Services() {
         <InterestedButton onClick={() => console.log("CLICKED")}>
           Click Me
         </InterestedButton>
-
         <br />
       </div>
     </div>

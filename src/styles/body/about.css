@@ -28,10 +28,6 @@
   color: var(--text-secondary);
 }
 
-.feature-card {
-  padding: 1rem;
-}
-
 .feature-card-row {
   display: flex;
   gap: 3rem;

@@ -39,5 +39,3 @@ export default function Main() {
     </>
   );
 }
-
-// TODO: CORRECT MOBILE ALLIGNMENT ON MAIN PAGE

@@ -6,6 +6,7 @@ export default function DesktopNav() {
         <NavList to="/">Home</NavList>
         <NavList to="/services">Services</NavList>
         <NavList to="/about">About Us</NavList>
+        <NavList to="/legals">Legals</NavList>
       </ul>
     </div>
   );
