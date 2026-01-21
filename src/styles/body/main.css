@@ -77,6 +77,10 @@
 }
 
 @media (max-width: 786px) {
+  .hero,
+  .transparent-layer {
+    box-sizing: border-box;
+  }
   .hero {
     flex-direction: column;
     gap: 2rem;

@@ -9,7 +9,7 @@
   scrollbar-width: thin;
   -ms-overflow-style: none;
   gap: 1em;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -63,5 +63,11 @@
     margin: 0;
     padding: 1rem;
     gap: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel {
+    justify-content: center;
   }
 }
