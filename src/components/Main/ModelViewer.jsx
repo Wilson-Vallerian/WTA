@@ -37,15 +37,18 @@ export default function ModelViewer({ modelPath, className }) {
 
     /* CONTROLS */
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true;
-    controls.enableZoom = false;
     controls.enablePan = false;
+    controls.enableDamping = false;
+    controls.enableZoom = true;
+
+    const render = () => renderer.render(scene, camera);
+    controls.addEventListener("change", render);
 
     /* LOAD MODEL */
     const loader = new GLTFLoader();
     let model;
 
-    loader.load(modelPath, (gltf) => {
+    loader.load(`${modelPath}`, (gltf) => {
       model = gltf.scene;
 
       // Auto-center
@@ -59,29 +62,22 @@ export default function ModelViewer({ modelPath, className }) {
       model.scale.setScalar(10 / maxDim);
 
       scene.add(model);
+      render();
     });
 
-    /* ANIMATE */
-    let frameId;
-    const animate = () => {
-      frameId = requestAnimationFrame(animate);
-      controls.update();
-      renderer.render(scene, camera);
-    };
-    animate();
-
-    /* RESIZE */
     const onResize = () => {
       camera.aspect = container.clientWidth / container.clientHeight;
       camera.updateProjectionMatrix();
       renderer.setSize(container.clientWidth, container.clientHeight);
+      render();
     };
+
     window.addEventListener("resize", onResize);
 
     /* CLEANUP */
     return () => {
-      cancelAnimationFrame(frameId);
       window.removeEventListener("resize", onResize);
+      controls.removeEventListener("change", render);
       controls.dispose();
       renderer.dispose();
 
