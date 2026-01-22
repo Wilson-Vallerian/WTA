@@ -6,7 +6,7 @@ import InterestedButton from "../components/InterestedButton";
 export default function Main() {
   const navigate = useNavigate();
   function handleClick() {
-    navigate("/services");
+    navigate("/about");
   }
 
   return (
@@ -14,10 +14,12 @@ export default function Main() {
       <div className="hero">
         <div className="transparent-layer">
           <div className="hero-text">
-            <h1>Template</h1>
+            <h1>WIDYA TECHNO ABADI</h1>
             <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              "We are committed to being the best construction partner by
+              prioritizing the safety of life above all else, maintaining
+              uncompromising quality, and safeguarding the work environment to
+              ensure the sustainability of industry in Indonesia."
             </h3>
             <InterestedButton
               onClick={handleClick}
@@ -25,7 +27,7 @@ export default function Main() {
                 justifyContent: "flex-start",
               }}
             >
-              Click Me
+              About Us
             </InterestedButton>
           </div>
           <div className="image-container">

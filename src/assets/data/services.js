@@ -1,23 +1,23 @@
 const services = [
   {
-    title: "Service 1",
+    title: "Boiler Installation & Retubing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Complete boiler installation, retubing, and refurbishment services for industrial plants. Our scope includes inspection, tube replacement, pressure testing, commissioning, and compliance with safety and operational standards.",
   },
   {
-    title: "Service 2",
+    title: "EPC Services (Engineering, Procurement & Construction)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "End-to-end EPC solutions covering detailed engineering design, equipment procurement, project management, construction, and commissioning.",
   },
   {
-    title: "Service 3",
+    title: "Industrial Construction",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Comprehensive industrial construction services including civil works, structural steel fabrication, piping, mechanical erection, and electrical installation for plants, factories, and processing facilities.",
   },
   {
-    title: "Service 4",
+    title: "Maintenance & Plant Shutdown Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Planned and emergency maintenance services, including plant shutdowns, overhauls, and turnarounds. Our experienced team ensures minimal downtime while maintaining operational reliability and safety.",
   },
 ];
 

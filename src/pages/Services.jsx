@@ -10,8 +10,8 @@ export default function Services() {
       <SectionHeader
         title="Our Services"
         paragraphs={[
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-          "Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.",
+          "We provide comprehensive industrial engineering and construction services tailored to meet the demands of complex industrial projects.",
+          "From engineering and procurement to construction, installation, and commissioning, our services are delivered with a strong focus on safety, quality, and efficiency.",
         ]}
       />
 
@@ -21,8 +21,8 @@ export default function Services() {
         <SectionHeader
           title="Feel Interested?"
           paragraphs={[
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-            "Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscingelit quisque faucibus ex sapien vitae pellentesque.",
+            "Looking for a reliable partner for your industrial project?",
+            "Contact us today to discuss your requirements and discover how our expertise can support your project from planning to completion.",
           ]}
         />
 

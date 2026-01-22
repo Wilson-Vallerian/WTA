@@ -1,47 +1,44 @@
 const legals = [
   {
-    title: "Card 1",
+    title: "SMK3",
     countryCode: "🇮🇩",
     informations: [
-      { title: "Short", val: "Short" },
-      { title: "Medium", val: "Medium Example" },
-      { title: "Long", val: "This is a Long sentence" },
+      {
+        title: "System",
+        val: "Occupational Health & Safety Management System",
+      },
+      {
+        title: "Description",
+        val: "OHS management following national regulations to ensure a safe, zero-accident workplace.",
+      },
+      {
+        title: "Implementation",
+        val: "Safety Induction Program & PPE Compliance",
+      },
     ],
   },
   {
-    title: "Card 2",
-    countryCode: "🇮🇩",
+    title: "ISO 9001:2015",
+    countryCode: "🌐",
     informations: [
-      { title: "Short", val: "Short" },
-      { title: "Medium", val: "Medium Example" },
-      { title: "Long", val: "This is a Long sentence" },
+      { title: "System", val: "Quality Management System" },
+      {
+        title: "Description",
+        val: "Quality standard for boiler construction products and services meeting customer and industry requirements.",
+      },
+      { title: "Focus", val: "Quality Control & Continuous Improvement" },
     ],
   },
   {
-    title: "Card 3",
-    countryCode: "🇮🇩",
+    title: "ISO 45001",
+    countryCode: "🌐",
     informations: [
-      { title: "Short", val: "Short" },
-      { title: "Short", val: "Short" },
-      { title: "Short", val: "Short" },
-    ],
-  },
-  {
-    title: "Card 4",
-    countryCode: "🇮🇩",
-    informations: [
-      { title: "Medium", val: "Medium Example" },
-      { title: "Medium", val: "Medium Example" },
-      { title: "Medium", val: "Medium Example" },
-    ],
-  },
-  {
-    title: "Card 5",
-    countryCode: "🇮🇩",
-    informations: [
-      { title: "Long", val: "This is a Long sentence" },
-      { title: "Long", val: "This is a Long sentence" },
-      { title: "Long", val: "This is a Long sentence" },
+      { title: "System", val: "HSE Management System" },
+      {
+        title: "Description",
+        val: "International standard for occupational health and safety in construction sites and industrial plants.",
+      },
+      { title: "Focus", val: "Risk Assessment & Occupational Health" },
     ],
   },
 ];

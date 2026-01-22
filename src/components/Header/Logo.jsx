@@ -6,7 +6,7 @@ export default function Logo() {
     <div className="logo-wrapper">
       <Link to="/">
         {/* <img className="logo" src={logo} alt="logo" /> */}
-        <p>TEMPLATE</p>
+        <p>Widya Techno Abadi</p>
       </Link>
     </div>
   );
