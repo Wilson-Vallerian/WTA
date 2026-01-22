@@ -29,6 +29,15 @@ body {
 
   --shadow-primary: 2px 4px 8px rgba(37, 99, 235, 0.25);
   --shadow-secondary: 6px 10px 24px rgba(37, 99, 235, 0.3);
+  --shadow-trinary:
+    12px 20px 48px rgba(37, 99, 235, 0.14),
+    28px 28px 64px rgba(255, 200, 120, 0.08);
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-secondary),
+    var(--bg-trinary)
+  );
 }
 
 [data-theme="dark"] {

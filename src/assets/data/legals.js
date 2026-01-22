@@ -1,4 +1,4 @@
-const legals = [
+export const legals = [
   {
     title: "SMK3",
     countryCode: "🇮🇩",
@@ -43,4 +43,13 @@ const legals = [
   },
 ];
 
-export default legals;
+export const companyInfo = [
+  {
+    icon: "FaBuilding",
+    label: "Nama Perusahaan",
+    value: "PT Widya Techno Abadi",
+  },
+  { icon: "FaIdCard", label: "NIB", value: "8120001970128" },
+  { icon: "FaFileInvoiceDollar", label: "NPWP", value: "84.469.131.1-121.000" },
+  { icon: "FaIndustry", label: "KBLI", value: "33122, 43222, 43299, 43223" },
+];

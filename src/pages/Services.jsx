@@ -7,15 +7,17 @@ import InterestedButton from "../components/InterestedButton";
 export default function Services() {
   return (
     <div>
-      <SectionHeader
-        title="Our Services"
-        paragraphs={[
-          "We provide comprehensive industrial engineering and construction services tailored to meet the demands of complex industrial projects.",
-          "From engineering and procurement to construction, installation, and commissioning, our services are delivered with a strong focus on safety, quality, and efficiency.",
-        ]}
-      />
+      <div className="services-bg">
+        <SectionHeader
+          title="Our Services"
+          paragraphs={[
+            "We provide comprehensive industrial engineering and construction services tailored to meet the demands of complex industrial projects.",
+            "From engineering and procurement to construction, installation, and commissioning, our services are delivered with a strong focus on safety, quality, and efficiency.",
+          ]}
+        />
 
-      <Carousel data={services} />
+        <Carousel data={services} />
+      </div>
 
       <div className="even-section">
         <SectionHeader
